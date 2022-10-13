@@ -416,3 +416,11 @@ body {
         padding: 20px 24px;
         border: 1px solid var(--portfolio-border-color);
     }
+
+    /* Домашнє завдання 3*/
+    .hero {
+        background-image: url(./images/hero-overlay.png), url(./images/hero-img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
