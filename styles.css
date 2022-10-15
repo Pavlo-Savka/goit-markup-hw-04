@@ -418,9 +418,42 @@ body {
     }
 
     /* Домашнє завдання 3*/
-    .hero {
-        background-image: url(./images/hero-overlay.png), url(./images/hero-img.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.hero {
+    background-image: url(./images/hero-overlay.png), url(./images/hero-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-contacts-item {
+    align-items: center;
+    display: flex;
+}
+.mail-icon {
+    fill: var(--paragraf-color);
+    margin-right: 10px;
+}
+.tel-icon {
+    margin-right: 10px;
+    fill: var(--paragraf-color);
+}
+.features-icon-box {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: var(--section-command-color);
+}
+.mail, .tel {
+    display: flex;
+    align-items: center;
+}
+.header-contacts .mail:hover .mail-icon,
+.mail:hover .mail-icon,
+.header-contacts .tel:hover .tel-icon,
+.tel:hover .tel-icon {
+fill: var(--accent-color);
+}
+.header-contacts .mail:focus .mail-icon,
+.mail:focus .mail-icon,
+.header-contacts .tel:focus .tel-icon,
+.tel:focus .tel-icon {
+fill: var(--accent-color);
+}
