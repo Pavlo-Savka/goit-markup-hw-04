@@ -414,7 +414,7 @@ body {
         border: 1px solid var(--portfolio-border-color);
     }
 
-    /* Домашнє завдання 3*/
+    /* Домашнє завдання 4*/
 .hero {
     background-image: url(./images/hero-overlay.png), url(./images/hero-img.jpg);
     background-position: center;
@@ -436,6 +436,7 @@ body {
 .features-icon-box {
     padding: 25px 100px;
     margin-bottom: 30px;
+    border-radius: 4px;
     background-color: var(--section-command-color);
 }
 .mail, .tel {
@@ -475,13 +476,12 @@ fill: var(--accent-color);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    fill: var(--icons-color);
 }
 .command-prof {
     margin-bottom: 16px;
 }
-.social-icon {
-    fill: var(--icons-color);
-}
+
 .social-link:hover, 
 .social-link:focus {
     background-color: var(--accent-color);
@@ -520,7 +520,6 @@ fill: var(--accent-color);
 
 .clients-list-logo {
     fill: var(--icons-color);
-
 }
 .clients-list-item:hover {
     border: 1px solid var(--accent-color);
@@ -553,9 +552,20 @@ fill: var(--accent-color);
     background-color: var(--accent-color);
 }
 .join-social {
-text-align: left;  
-padding-top: 12px;
-margin-left: 70px;
+    text-align: left;  
+    padding-top: 12px;
+    margin-left: 70px;
 }
-
+.command-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.project-list-item:hover,
+.project-list-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.button-list-item:focus,
+.button-list-item:hover {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   }
 
