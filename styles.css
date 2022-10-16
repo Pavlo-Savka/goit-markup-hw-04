@@ -464,11 +464,6 @@ fill: var(--accent-color);
     margin-top: 0;
     margin-bottom: 0;
 }
-.social-icon {
-    width: 20px;
-    height: 20px;
-}
-
 .social-link {
     display: flex;
     width: 100%;
@@ -476,8 +471,12 @@ fill: var(--accent-color);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    fill: var(--icons-color);
+    color: var(--icons-color);
 }
+.social-icon {
+    fill: currentColor;
+}
+
 .social-link-item {
     width: 44px;
     height: 44px;
@@ -492,11 +491,8 @@ fill: var(--accent-color);
 
 .social-link:hover, 
 .social-link:focus {
+    color: var(--main-color);
     background-color: var(--accent-color);
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-    fill: var(--main-color);
 }
 .clients {
     padding-top: 94px;
@@ -536,7 +532,6 @@ fill: var(--accent-color);
 }
 .section-footer {
     display: flex;
-    
 }
 .join {
     display: inline-block;
